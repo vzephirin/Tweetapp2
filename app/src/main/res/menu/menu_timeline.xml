@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/ic_email_white_24dp"
+        android:onClick="onClickProfilView"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/miProfile"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:onClick="onClickProfilView"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_search"
+
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"  />
+
+</menu>
+

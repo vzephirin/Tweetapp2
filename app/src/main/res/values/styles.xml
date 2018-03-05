@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+     </style>
+    <style name="TwitterDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="colorAccent">@color/twitter_logo_blue</item>
+
+    </style>
+
+    <!-- Application theme. -->
+
+    <color name="bluebackground">#9999FF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="twitter_vitrified_blue">#1dcaff</color>
+    <color name="twitter_dark_blue">#0084b4</color>
+    <color name="twitter_logo_blue">#58abec</color>
+    <color name="twitter_retweet">#32B32e</color>
+    <color name="twitter_bluebackground">#c0deed</color>
+
+
+
+</resources>
+
+    <!-- Application theme. -->
+
+
+
